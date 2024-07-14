@@ -6,6 +6,7 @@ import { BiColorFill } from 'react-icons/bi';
 import { IoMdContacts } from 'react-icons/io';
 import { RiContactsLine, RiStockLine } from 'react-icons/ri';
 import { MdOutlineSupervisorAccount } from 'react-icons/md';
+import { TbFileReport, TbBookmarkPlus } from "react-icons/tb";
 import { HiOutlineRefresh } from 'react-icons/hi';
 import { TiTick } from 'react-icons/ti';
 import { GiLouvrePyramid } from 'react-icons/gi';
@@ -501,16 +502,20 @@ export const links = [
     title: 'Apps',
     links: [
       {
+        name: 'reports',
+        icon: <TbFileReport />,
+      },
+      {
+        name: 'bookings',
+        icon: <TbBookmarkPlus />,
+      },
+      {
         name: 'calendar',
         icon: <AiOutlineCalendar />,
       },
       {
         name: 'kanban',
         icon: <BsKanban />,
-      },
-      {
-        name: 'editor',
-        icon: <FiEdit />,
       },
       {
         name: 'color-picker',
